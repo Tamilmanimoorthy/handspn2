@@ -1,0 +1,38 @@
+#main-content p{
+    padding: 20px;
+    color: #555;
+}
+h1{
+    background-color: #333;
+
+}
+.nav>li{
+    display: inline;
+    margin-right: 10px;
+}
+
+a[target]{
+    color: red;
+}
+a [target]:hover{
+    color: green;
+}
+r:first-child{
+    font-size: larger;
+}
+r:last-child{
+    color: blue;
+}
+footer::before{
+    
+    display: block;
+
+    
+}
+.nav {
+    
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
